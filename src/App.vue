@@ -3,21 +3,21 @@
   <section class="bg-gray-900 min-h-screen">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
       <div class="flex flex-col justify-center mb-8">
-        <h1 class="mb-4 text-4xl font-extrabold text-white tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl">
-          Hızlı Parmaklar
+        <h1 class="mb-4 text-4xl font-extrabold text-white tracking-tight leading-none md:text-4xl lg:text-5xl">
+          Fast Fingers
         </h1>
         <p class="text-lg font-normal text-gray-400 lg:text-xl">
-          Hızlı Parmaklar ile yazma hızınızı geliştirin.
+          Improve your typing speed with Fast Fingers.
         </p>
       </div>
 
       <div v-if="isFinished" class="mb-4 bg-gray-700 p-6 rounded-lg" role="alert">
-        <h2 class="mb-4 font-bold text-4xl text-white leading-tight">Süre doldu!</h2>
+        <h2 class="mb-4 font-bold text-4xl text-white leading-tight">Time is up!</h2>
         <hr class="border-gray-100 opacity-30" />
-        <p class="my-4 font-bold text-4xl text-green-600">{{ trueCounter }} DBK</p>
+        <p class="my-4 font-bold text-4xl text-green-600">{{ trueCounter }} WPM</p>
         <div class="flex flex-col my-4">
           <div class="flex flex-row mb-2">
-            <p class="w-24 font-bold text-lg text-white">Doğruluk:</p>
+            <p class="w-24 font-bold text-lg text-white">Accuracy:</p>
             <p class="font-bold text-lg text-green-500">{{ accuracy }}</p>
           </div>
           <div class="flex flex-row mb-2">
@@ -29,7 +29,7 @@
             <p class="font-bold text-lg text-red-500">{{ falseCounter }}</p>
           </div>
         </div>
-        <button class="bg-green-700 w-full p-3 font-bold text-md text-white rounded-lg hover:bg-green-600" @click="restart">Tekrar Oyna</button>
+        <button class="bg-green-700 w-full p-3 font-bold text-md text-white rounded-lg hover:bg-green-600" @click="restart">Play Again</button>
       </div>
       <div v-else>
         <div class="bg-gray-500 w-full rounded-lg mb-4 pt-5 pb-6 px-6 flex flex-row flex-wrap">
