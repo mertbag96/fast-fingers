@@ -6,4 +6,4 @@ I prepared this app in order to get familiar with Vue.js and Tailwindcss. I must
 - Vue.js
 - Tailwindcss
 
-![alt text](https://github.com/mertbag96/fast-fingers/blob/main/public/fast-fingers.png?raw=true)
+![alt text](https://github.com/mertbag96/fast-fingers/blob/main/public/fast-fingers.PNG)
